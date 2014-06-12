@@ -57,6 +57,13 @@ public abstract class BaseCastActivity extends ActionBarActivity {
             mCastConsumer = new DataCastConsumerImpl() {
 
                 @Override
+                public void onConnecting() {
+                    super.onConnecting();
+
+                    showLoading(true);
+                }
+
+                @Override
                 public boolean onApplicationConnectionFailed(int errorCode) {
                     LogWrap.l("errorCode " + errorCode);
                     Toast.makeText(BaseCastActivity.this,
@@ -95,6 +102,8 @@ public abstract class BaseCastActivity extends ActionBarActivity {
                 public void onDisconnected() {
                     LogWrap.l();
                     super.onDisconnected();
+
+                    onCastApplicationReady(false);
 
                 }
 

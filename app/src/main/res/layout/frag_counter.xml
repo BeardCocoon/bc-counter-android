@@ -11,8 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:ems="10"
-        android:hint="NAME"
-        android:inputType="textPersonName"/>
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color"
+        android:gravity="center"
+        android:textSize="40sp"/>
 
     <View
         android:layout_width="match_parent"
@@ -23,5 +27,6 @@
         android:id="@+id/buttonIncrement"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:text="+1"/>
+        android:text="@string/increment"
+        android:textSize="40sp"/>
 </LinearLayout>
