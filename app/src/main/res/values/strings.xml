@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Counter App</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Counter</string>
     <string name="error_oops">OOPS</string>
     <string name="error_message">It seems your device doesn\'t have the latest version of Google Play Services.  Unfortunately Countdown won\'t work without this - we are terribly sorry!</string>
-    <string name="hint_name">NAME</string>
-    <string name="increment">+1</string>
+    <string name="hint_name">Set Name</string>
+    <string name="increment">+</string>
 </resources>

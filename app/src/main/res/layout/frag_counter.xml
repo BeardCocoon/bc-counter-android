@@ -9,7 +9,8 @@
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:ems="10"
         android:hint="@string/hint_name"
         android:inputType="textPersonName"
@@ -18,15 +19,14 @@
         android:gravity="center"
         android:textSize="40sp"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
 
     <Button
+        android:layout_marginTop="16dp"
         android:id="@+id/buttonIncrement"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:textColor="#FFFFFF"
         android:text="@string/increment"
-        android:textSize="40sp"/>
+        android:textSize="200sp"/>
 </LinearLayout>
