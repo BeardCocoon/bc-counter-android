@@ -17,7 +17,7 @@ public class CastApplication extends Application {
     @SuppressWarnings("unused")
     private static final String APP_ID_TEST = "EA1EDAB6";
     private static final String APP_ID_PROD = "8D2A8165";
-    private static final String APP_ID = APP_ID_TEST;
+    private static final String APP_ID = APP_ID_PROD;
     private static final String TAG = "CastApplication";
     public static final String NAMESPACE = "urn:x-cast:com.beardcocoon.counter.message";
 
