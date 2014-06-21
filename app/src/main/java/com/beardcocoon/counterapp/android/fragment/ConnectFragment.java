@@ -14,7 +14,7 @@ import com.beardcocoon.counterapp.android.util.LogWrap;
  * Use the {@link ConnectFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ConnectFragment extends Fragment {
+public class ConnectFragment extends BaseFragment {
 
     public static ConnectFragment getInstance() {
         ConnectFragment fragment = new ConnectFragment();

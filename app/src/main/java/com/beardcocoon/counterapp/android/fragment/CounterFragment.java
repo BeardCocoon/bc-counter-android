@@ -17,7 +17,7 @@ import com.beardcocoon.counterapp.android.util.CastBroadcast;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CounterFragment extends Fragment {
+public class CounterFragment extends BaseFragment {
 
     public static CounterFragment getInstance() {
         return new CounterFragment();

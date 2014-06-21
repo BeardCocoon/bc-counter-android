@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Connect to a Chromecast!"
+        android:text="@string/connect"
         android:textColor="@color/text_color"/>
 
     <ImageView
@@ -20,4 +20,14 @@
         android:src="@drawable/arrow_white"/>
 
 
+    <include
+        android:id="@+id/adView"
+        layout="@layout/ad_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"/>
 </RelativeLayout>
